@@ -1,31 +1,40 @@
 ﻿using System;
 using System.Configuration;
 using System.Collections.Specialized;
-using System.Net;
-using Junior_Backend_Test;
-using Npgsql;
-using System.Threading.Tasks;
+using System.Xml;
+using System.IO;
 
 namespace Junior_Backend_Test
 {
     internal class Program
     {
+        // пример параметров для командной строки: arg1 arg2 "long argument" 123456
         static void Main(string[] args)
         {
-            //string sAttr = ConfigurationManager.AppSettings.Get("Key0"); //получение одного ключа
+            XMLFile file = new XMLFile();
+            PostgresqlConnection conn = new PostgresqlConnection();
+            SendFile send = new SendFile();
 
-            NameValueCollection sAll = ConfigurationManager.AppSettings;
-
-            CheckSite check = new CheckSite();
-            foreach (string s in sAll.AllKeys)
+            if (args.Length == 0)
             {
-                Console.WriteLine($"Сайт: {s} - {sAll.Get(s)} - {check.CheckSite1(sAll.Get(s))}");
+                Console.WriteLine("В командной строке не заданы параметры");
+                Console.WriteLine();
+                Console.WriteLine("Идет генерация файла...");
+                Console.WriteLine();
 
+                file.GenerateXMLFile();
+                conn.ConnectionGetData();
+                send.SendToMail();
             }
-            Console.WriteLine();
+            else
+            {
+                Console.WriteLine($"В командной строке задано {args.Length} параметра/ов");
+                Console.WriteLine();
 
-            var stateBD = PostgresqlConnection.Connection().GetAwaiter();
-
+                file.PrintInformation();
+                Console.WriteLine();
+                conn.PrintConnectionInfo();
+            }
 
             Console.ReadLine();
         }

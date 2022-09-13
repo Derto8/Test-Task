@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <data>
+    <site>Сайт: - https://www.google.ru/ - Доступен!</site>
+    <site>Сайт: - https://github.com/ - Доступен!</site>
+    <site>Сайт: - http://sdfsgsdvbgcf.com/ - Не доступен!</site>
+    <site>Сайт: - https://vk.com/ - Доступен!</site>
+    <site>Сайт: - http://gfdgdfgdv.com/ - Не доступен!</site>
+    <site>Сайт: - https://ya.ru/ - Доступен!</site>
+  </data>
+  <databasedata>
+    <connection>Строка подключения: Host=localhost;Port=5432;Username=postgres;Database=postgres</connection>
+    <state>Состояние подключения: Open</state>
+  </databasedata>
+</configuration>

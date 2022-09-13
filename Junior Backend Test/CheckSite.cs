@@ -7,7 +7,7 @@ namespace Junior_Backend_Test
 {
     internal class CheckSite
     {
-        public string CheckSite1(string url)
+        public string CheckSiteAvailability(string url)
         {
             Uri uri = new Uri(url);
             try

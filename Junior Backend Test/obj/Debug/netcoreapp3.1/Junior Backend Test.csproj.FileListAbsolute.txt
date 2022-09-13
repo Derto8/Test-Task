@@ -1,11 +1,9 @@
 C:\Users\Николай\source\repos\Junior Backend Test\Junior Backend Test\bin\Debug\netcoreapp3.1\Junior Backend Test.exe
-C:\Users\Николай\source\repos\Junior Backend Test\Junior Backend Test\bin\Debug\netcoreapp3.1\Junior Backend Test.dll.config
 C:\Users\Николай\source\repos\Junior Backend Test\Junior Backend Test\bin\Debug\netcoreapp3.1\Junior Backend Test.deps.json
 C:\Users\Николай\source\repos\Junior Backend Test\Junior Backend Test\bin\Debug\netcoreapp3.1\Junior Backend Test.runtimeconfig.json
 C:\Users\Николай\source\repos\Junior Backend Test\Junior Backend Test\bin\Debug\netcoreapp3.1\Junior Backend Test.runtimeconfig.dev.json
 C:\Users\Николай\source\repos\Junior Backend Test\Junior Backend Test\bin\Debug\netcoreapp3.1\Junior Backend Test.dll
 C:\Users\Николай\source\repos\Junior Backend Test\Junior Backend Test\bin\Debug\netcoreapp3.1\Junior Backend Test.pdb
-C:\Users\Николай\source\repos\Junior Backend Test\Junior Backend Test\obj\Debug\netcoreapp3.1\Junior Backend Test.csproj.AssemblyReference.cache
 C:\Users\Николай\source\repos\Junior Backend Test\Junior Backend Test\obj\Debug\netcoreapp3.1\Junior Backend Test.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Николай\source\repos\Junior Backend Test\Junior Backend Test\obj\Debug\netcoreapp3.1\Junior Backend Test.AssemblyInfoInputs.cache
 C:\Users\Николай\source\repos\Junior Backend Test\Junior Backend Test\obj\Debug\netcoreapp3.1\Junior Backend Test.AssemblyInfo.cs
@@ -33,3 +31,4 @@ C:\Users\Николай\source\repos\Junior Backend Test\Junior Backend Test\obj
 C:\Users\Николай\source\repos\Junior Backend Test\Junior Backend Test\bin\Debug\netcoreapp3.1\Npgsql.dll
 C:\Users\Николай\source\repos\Junior Backend Test\Junior Backend Test\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Николай\source\repos\Junior Backend Test\Junior Backend Test\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Николай\source\repos\Junior Backend Test\Junior Backend Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

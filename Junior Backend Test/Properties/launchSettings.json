@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Junior Backend Test": {
+      "commandName": "Project",
+      "commandLineArgs": "arg1 arg2 \"long argument\" 123456"
+    }
+  }
+}
